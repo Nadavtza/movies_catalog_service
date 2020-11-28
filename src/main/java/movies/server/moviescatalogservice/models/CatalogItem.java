@@ -6,7 +6,9 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class CatalogItem {
-    private String name; 
+    public CatalogItem(String string, String string2, int i) {
+	}
+	private String name; 
     private String description; 
     private int rating; 
 }
